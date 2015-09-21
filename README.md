@@ -6,5 +6,6 @@ requirements:
 * python 2.7
 
 how to run:
+* clone into local directory of your choice
 * run terminal
 * input line: python entertainment_center.py

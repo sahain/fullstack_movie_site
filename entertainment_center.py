@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+# Instantiates some movie objects 
 walk_like_a_man = media.Movie("Walk Like a Man",
 									1987,
 									"Boy raised by wolves is reunited as an adult with his real family.",
@@ -54,5 +55,7 @@ l_age_d_Or = media.Movie("L'Age d'Or",
 										5
 										)
 
+# Creates collection of movies
 movies = [walk_like_a_man, pee_wee, high_and_low, holy_mountain, abbott_costello, l_age_d_Or]
+# Runs the open_movies_pages function in fresh_tomatoes, passing movies as argument
 fresh_tomatoes.open_movies_page(movies)
